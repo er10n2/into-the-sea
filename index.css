@@ -1,0 +1,374 @@
+body {
+    background-color: #000b17;;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.logo{
+    width:115px;
+    transform:rotate(30deg);
+}
+
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+   
+background: linear-gradient(to bottom, rgba(17, 24, 39, 0.9), rgba(17, 24, 39, 0.3)), url("/images/sea.png"); /* chat gpt*/
+  background-size: cover;
+}
+
+.nav-list-div{
+    width:50%;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.ul-el{
+
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.ul-el li{
+
+    list-style-type: none;
+   font-family: 'JetBrains Mono', monospace;
+
+     color: #ffffff;
+
+}
+
+.header{
+    width:100%;
+    height:100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/images/sea.png");
+    background-repeat: no-repeat;
+}
+.header-text{
+    margin-bottom: 30px;
+}
+
+
+.header-text h1 {
+    font-family: 'JetBrains Mono', monospace;
+    color: #ffffff;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 0.15em solid #ffffff;
+    width: 0;
+    animation: typing 4s steps(13, end) forwards, blink 0.75s step-end infinite; /* chatGPT*/
+}
+
+@keyframes typing {  /* chatGPT*/
+    from { width: 0; }
+    to { width: 13ch; }
+}
+
+@keyframes blink {  /* chatGPT*/
+    50% { border-color: transparent; }
+    0%, 100% { border-color: #ffffff; }
+}
+
+
+.header-p p{
+    font-family: 'JetBrains Mono', monospace;
+
+     color: #ffffff;
+}
+
+
+.about-us-div{
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: end;
+   
+    
+   background-color: #000b17;
+   background-image: url(/images/dizajni\ 3.png);
+   background-repeat: no-repeat;
+   background-size: 50%;
+   background-position: left;
+
+
+}
+
+
+.about-right-div{
+    width:50%;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height:69%;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.about-right-div p{
+     font-family: 'JetBrains Mono', monospace;
+
+     color: #ffffff;
+     width: fit-content;
+}
+.about-right-div h2{
+     font-family: 'JetBrains Mono', monospace;
+
+     color: #ffffff;
+     width: fit-content;
+}
+
+.about-right-div button{
+    width:200px;
+    color:#ffffff;
+     font-family: 'JetBrains Mono', monospace;
+    border-style: none;
+    border-radius: 10px;
+    height:50px;
+    background-color:#111827;
+    cursor: pointer;
+    
+    
+    
+
+}
+
+.team-div{
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000b17;
+    margin-top: 150px;
+}
+.team-div h1{
+    color:#ffffff;
+}
+
+.team-div ul{
+    display: flex;
+    width:80%;
+    align-items: center;
+    justify-content: space-around;
+    height:80%;
+    flex-wrap: wrap;
+
+}
+
+.team-div ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:20%;
+    height:fit-content;
+    color:#ffffff;
+        font-family: 'JetBrains Mono', monospace;
+        text-align: center;
+        box-shadow: 4px 9px 10px rgba(0, 0, 0, 1);
+
+    
+}
+
+.team-img{
+     width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+
+.price-title{
+      color:#ffffff;
+    font-family: 'JetBrains Mono', monospace;
+    width:100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.prices-div{
+    width: 80%;
+    height:100vh;
+    margin:auto;
+    color:#ffffff;
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.starter-plan{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height:60%;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: 4px 9px 10px rgba(0, 0, 0, 1);
+    padding: 20px;
+    width:25%;
+}
+
+.starter-plan p,
+.starter-plan h4,
+.p-2{
+    width: 100%;
+    text-align: left;
+    margin: 5px 0;
+}
+
+.starter-plan button{
+    width:100%;
+    height:40px;
+    border-style: none;
+    font-family: 'JetBrains Mono', monospace;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.prices-ul-el{
+    width: 100%;
+    margin: 0; 
+    padding-left: 20px;
+    list-style-type: disc; 
+}
+
+.prices-ul-el li{
+    margin-bottom: 5px;
+}
+
+.pro-plan{
+     box-shadow: 4px 9px 10px rgb(92, 113, 233);
+}
+
+
+.contact-div{
+    width:100%;
+    height:100vh;
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    
+}
+
+
+.right-contact-div{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-div{
+    width:100%;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#03192d;
+    box-shadow: 4px 9px 10px rgba(0, 0, 0, 1);
+    border-radius: 10%;
+    background-image: url(/images//blackPearl.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.name-lastname-div{
+    width:100%;
+    height:20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.lastname{
+    width: 40%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 12px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    outline: none;
+    background-color: #000b17;
+      color: #ffffff;
+    caret-color: #ffffff;
+}
+
+.name{
+ width: 40%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 12px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    outline: none;
+     background-color: #000b17;
+       color: #ffffff;
+    caret-color: #ffffff;
+}
+
+
+.email,
+.message {
+    width:90%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 12px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    outline: none;
+     background-color: #000b17;
+       color: #ffffff;
+    caret-color: #ffffff;
+}
+
+
+.email-div{
+
+    width:100%;
+    height:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-div{
+      width:100%;
+    height:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-contact-div h3{
+    color: #ffffff;
+     font-family: 'JetBrains Mono', monospace;
+     width:100%;
+     text-align: center;
+}
