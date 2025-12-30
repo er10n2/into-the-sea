@@ -2,7 +2,7 @@ body {
 
     padding: 0px;
     margin: 0px;
-     background-image: url("/images/intothesea.png");
+     background-image: url("intothesea.png");
      background-size: cover;
       
 }
@@ -417,7 +417,7 @@ html {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     margin:auto;
     gap:25px;
-    background-image: url("images/diver3.png"), url("images/shark.png");;
+    background-image: url("diver3.png"), url("shark.png");;
     background-repeat: no-repeat;
     background-size:200px;
     background-position-y: 320px,210px;

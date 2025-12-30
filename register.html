@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
 
-    <link rel ="stylesheet" href="../Register/register.css">
+    <link rel ="stylesheet" href="register.css">
    
 </head>
 <body>
@@ -15,7 +15,7 @@
 
         <div class="logo-div">
 
-            <img alt="logo" class="logo" src="/images/dizajni 3.png">
+            <img alt="logo" class="logo" src="dizajni 3.png">
 
 
         </div>
@@ -24,13 +24,9 @@
         <div class="nav-list-div">
 
             <ul class="ul-el">
-
-                <li> <a href="#">About Us</a></li>
-                 <li><a href="#"> Team</a></li>
-                  <li> <a href="#">Prices</a></li>
-                  <li> <a href="#">Contact Us</a></li>
-                  <li id="register-link"> <a href="/Pages/Register/register.html">Register </a></li>
-                  <li id="login-link"> <a href="/Pages/Login/login.html">Login </a></li></li>
+               <li> <a href="/">Home </a></li>
+                 
+                  <li id="login-link"> <a href="login.html">Login </a></li></li>
                    <li id="logout-link" style="display:none">
 
                     <a href="#" id="logout-btn">Logout</a>
@@ -56,48 +52,21 @@
 
     <div class="form-div">
 
+<form id="form">
+    <div class="form-headline">Join our Crew</div>
 
-        <form id="form">
+    <div class="name-lastname-div">
+        <input type="text" placeholder="Name" class="input" id="name">
+        <input type="text" placeholder="Lastname" class="input" id="lastname">
+    </div>
 
-             <div class="form-headline">
-        
-                 Join our Crew
-              </div>
+    <input type="email" placeholder="Email" class="input" id="email">
+    <input type="password" placeholder="Password" class="input" id="password">
+    <input type="password" placeholder="Confirm Password" class="input" id="confirmPassword">
 
-            <div class=" name-lastname-div" >
-
-                <input type="text" placeholder="Name" class="name input" id="name">
-                <input type="text" placeholder="Lastname" class="lastname input" id="lastname">
-
-            </div>
-
-
-            <div class="email-div">
-
-                <input type="email" placeholder="Email" class="email input" id="email">
-                <input type="password" placeholder="Password" class="password input" id="password">
-
-
-            </div>
-
-
-            <div class="password-div">
-
-                
-
-                <input type ="password" placeholder="Confirm Password" class="password input" id="confirmPassword">
-
-            </div>
-
-
-
-            <button class="register-btn" id ="submit-btn"type="submit">Register</button>
-
-            <p id="error-message"></p>
-
-
- 
-        </form>
+    <button class="register-btn" id="submit-btn" type="submit">Register</button>
+    <p id="error-message"></p>
+</form>
 
 
 
@@ -114,8 +83,8 @@
 
 
 
-<script src="../../index.js"></script>
-    <script src="/Pages/Register/register.js"></script>
+<script src="index.js"></script>
+    <script src="register.js"></script>
 
 </body>
 </html>
