@@ -121,7 +121,7 @@ html {
     height:15px;
 }
 
-/* Main Section */
+
 .about-us-div {
     width: 100%;
     min-height: 100vh;
@@ -129,16 +129,16 @@ html {
     align-items: center;
     justify-content: center;
     gap: 50px;
-    padding: 40px 5%; /* Reduced padding slightly */
-    box-sizing: border-box; /* IMPORTANT: This stops the width overflow */
-    overflow: hidden; /* Safety net to prevent scrollbars */
+    padding: 40px 5%; 
+    box-sizing: border-box; 
+    overflow: hidden; 
 }
 
-/* Left side with the Image */
+
 .about-us-left-div {
-    flex: 1; /* Automatically takes fair share of space */
+    flex: 1; 
     display: flex;
-    justify-content: flex-end; /* Pushes image toward the center */
+    justify-content: flex-end; 
 }
 
 .diver-img {
@@ -147,19 +147,19 @@ html {
     height: auto;
 }
 
-/* Right side with the Text */
+
 .about-right-div {
-    flex: 1; /* Automatically takes fair share of space */
+    flex: 1; 
     display: flex;
     flex-direction: column;
     text-align: left;
-    max-width: 500px; /* Prevents text lines from getting too long */
+    max-width: 500px; 
 }
 
 .about-right-div h2 {
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
-    font-size: clamp(2rem, 5vw, 3.5rem); /* Adjusts size based on screen */
+    font-size: clamp(2rem, 5vw, 3.5rem); 
     margin: 0 0 20px 0;
 }
 
@@ -171,9 +171,9 @@ html {
     margin-bottom: 30px;
 }
 
-/* Button Styling */
+
 .about-right-div button {
-    width: fit-content; /* Only as wide as the text inside */
+    width: fit-content; 
     padding: 15px 30px;
     background-color: #02f9ff;
     color: #03192d;
