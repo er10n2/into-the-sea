@@ -3,375 +3,211 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>Into The Sea | Exploration</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-
 </head>
 <body>
 
     <div class="container">
-    <div class="nav-div">
+        <nav class="nav-div">
+            <div class="logo-div">
+                <img alt="logo" class="logo" src="/images/dizajni 3.png">
+            </div>
 
+            <div class="nav-list-div">
+                <ul class="ul-el">
+                    <li><a href="#about-section">About Us</a></li>
+                    <li><a href="#team-section">Team</a></li>
+                    <li><a href="#price-section">Prices</a></li>
+                    <li><a href="#contact-section">Contact Us</a></li>
+                    <li id="register-link"><a href="/Pages/Register/register.html">Register</a></li>
+                    <li id="login-link"><a href="/Pages/Login/login.html">Login</a></li>
+                    <li id="dashboard-link"><a href="/Pages/Dashboard/dashboard.html">Dashboard</a></li>
+                    <li id="logout-link" style="display:none"><a href="#" id="logout-btn">Logout</a></li>
+                </ul>
+            </div>
+        </nav>
 
-        <div class="logo-div">
+        <header class="header">
+            <div class="header-text">
+                <h1>Into The Sea</h1>
+            </div>
+            <div class="header-p">
+                <p>Explore the unknown depths with professional guidance and a passionate community.</p>
+            </div>
+        </header>
 
-            <img alt="logo" class="logo" src="/images/dizajni 3.png">
+   <section id="about-section" class="about-us-div">
+    <div class="about-us-left-div">
+        <img alt="diver-image" class="diver-img" src="/images/diver.png">
+    </div>
 
+    <div class="about-right-div">
+        <h2>Our Mission</h2>
+        <p>
+            Explore the deep blue with us. We are dedicated to providing 
+            professional guidance for underwater exploration. Our team ensures 
+            safety and passion are at the heart of every dive. 
+            Join our community and discover the beauty of the unknown depths.
+        </p>
+        <button onclick="location.href='#grid-section'">View Our Gallery</button>
+    </div>
+</section>
 
-        </div>
-
-
-        <div class="nav-list-div">
-
-            <ul class="ul-el">
-
-                <li> <a href="#">About Us</a></li>
-                 <li><a href="#"> Team</a></li>
-                  <li> <a href="#">Prices</a></li>
-                  <li> <a href="#">Contact Us</a></li>
-                  <li id="register-link"> <a href="/Pages/Register/register.html">Register </a></li>
-                  <li id="login-link"> <a href="/Pages/Login/login.html">Login </a></li></li>
-                   <li id="dashboard-link"> <a href="/Pages/Dashboard/dashboard.html">Dashboard </a></li>
-
-                  <li id="logout-link" style="display:none">
-
-                    <a href="#" id="logout-btn">Logout</a>
-
-                  </li>
-                  
+        <section id="team-section" class="team-div">
+            <h1>Our Team</h1>
+            <ul>
+                <li>
+                    <h3>Ocean</h3>
+                    <img alt="team-img" class="team-img" src="/images/ocean.png">
+                    <p class="team-p">Dattebayo!</p>
+                </li>
+                <li>
+                    <h3>Ocean Explorer</h3>
+                    <img alt="team-img" class="team-img" src="/images/ocean2.png">
+                    <p class="team-p">Tatakae!</p>
+                </li>
+                <li>
+                    <h3>Monkey D. Luffy</h3>
+                    <img alt="team-img" class="team-img" src="/images/ocean3.png">
+                    <p class="team-p">I'm gonna be King of the Pirates!</p>
+                </li>
             </ul>
+        </section>
 
+        <div id="price-section">
+            <div class="price-title"> 
+                <h1>Prices</h1>
+            </div>
+            <div class="prices-div">
+                <div class="starter-plan">
+                    <p>Starter</p><br>
+                    <h4>Free</h4>
+                    <p class="p-2">Share and explore content about the sea with Into the Sea</p>
+                    <button>Sign up</button>
+                    <ul class="prices-ul-el">
+                        <li>Post up to 10 sea stories or images</li>
+                        <li>View public posts from other users</li>
+                        <li>Basic commenting on posts</li>
+                        <li>Limited customization</li>
+                    </ul>
+                </div>
 
+                <div class="starter-plan pro-plan">
+                    <p>Pro</p><br>
+                    <h4>20$ per month</h4>
+                    <p class="p-2">Get more features to share and explore sea content.</p>
+                    <button>Sign up</button>
+                    <ul class="prices-ul-el">
+                        <li>Post up to 50 sea stories or images</li>
+                        <li>Access private posts</li>
+                        <li>Comment and interact with all posts</li>
+                        <li>Priority support</li>
+                    </ul>
+                </div>
+
+                <div class="starter-plan">
+                    <p>Teams</p><br>
+                    <h4>35$ per user</h4>
+                    <p class="p-2">Collaborate and manage multiple sea content creators.</p>
+                    <button>Sign up</button>
+                    <ul class="prices-ul-el">
+                        <li>Unlimited posts</li>
+                        <li>Private team spaces</li>
+                        <li>Advanced moderation</li>
+                        <li>Analytics dashboard</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-
-
-
-
+<div id="grid-section" class="GridContainer">
+    <div class="pink1">
+        <h3>Successful Deep<br> Expeditions</h3>
+        <img src="images/diver2.png" alt="expedition"> 
+        <h2>1.2K</h2>
+        <p>Managed Dives</p>
     </div>
 
-
-
-    <div class="header">
-
-        <div class="header-text">
-
-            <h1>Into The Sea</h1>
-
-
-        </div>
-
-        <div class="header-p">
-
-            <p>Dolor sit amet consectetur adipisicing elit. Sequi nobis accusantium autem quisquam repellat assumenda ipsa cumque.</p>
-
-            
-        </div>
-
-
-
-
-
+    <div class="white1">
+        <p>12.4K 💙</p>
+        <p>Ocean Lovers</p>
     </div>
 
-    <div class="space">
-
+    <div class="white2">
+        <p>Active Divers</p>
+        <p class="numberUsers">15K</p>
+        <p class="percentageP">+12% Monthly</p>
     </div>
 
-
-    <div class="about-us-div">
-
-
-        <div class="about-us-left-div">
-
-            <img alt="diver-image" class="diver-img" src="/images/diver.png">
-
-
-
+    <div class="white3">
+        <div class="white3InnerDiv">
+            <div class="white3Title"><p>Certified Masters</p></div>
+            <div class="white3ImagesDiv">
+                <img src="images/ocean2.png"> <img src="images/ocean3.png"> <img src="images/ocean.png">
+            </div>
+            <div class="white3P">
+                <p>New Students</p>
+                <p class="nr">82</p>
+                <p class="perc">+15%</p>
+            </div>
         </div>
-        
+    </div>
 
-        <div class="about-right-div">
-
-            <h2>Into The Sea</h2>
-
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Sequi quas exercitationem libero ab repudiandae sint corporis totam aliquam harum quos,<br> tenetur provident, officia ipsum nesciunt ipsa sunt similique. Mollitia, ab?</p>
-
-            <button>Check our Gallery</button>
+    <div class="white4">
+        <p>Pro Gear</p>
+        <div class="white4InnerDiv">
+            <img src="images/diver2.png">
         </div>
-
     </div>
 
+    <div class="pink2 centerDiv"></div>
 
-
-    <div class="team-div">
-
-    <h1>Our Team</h1>
-
-    <ul>
-        <li>
-    <h3>Naruto Uzumaki</h3>
-
-    <img alt="team-img"  class="team-img" src="/images/Naruto.jpg">
-
-    <p class="team-p"> 
-       Dattebayo!
-    </p>
-    </li>
-    <li>
-    <h3>Eren Yeager</h3>
-
-    <img alt="team-img" class="team-img" src="/images/eren.jpg">
-
-    <p class="team-p"> 
-        Tatakae!
-
-    </p>
-    </li>
-
-    <li>
-    <h3>Monkey D. Luffy</h3>
-
-    <img alt="team-img"  class="team-img" src="/images/luffy.jpg">
-
-    <p class="team-p"> 
-      I'm gonna be King of the Pirates!
-
-    </p>
-    </li>
-    
-
-</ul>
-
+    <div class="white5">
+        <p>Max Depth</p>
+        <p class="secondP">40 Meters (Rec)</p>
     </div>
 
+    <div class="white6">
+        <img src="/images/dizajni 3.png">
+        <p>AQUA</p>
+    </div>
 
-<div class="price-title"> 
-
-    <h1>   Prices</h1>
+    <div class="pink3">
+        <div>
+            <p class="pink3P">Protecting Reefs</p>
+            <p>Eco-Conservation</p>
+        </div>
+        <div class="pink3InnerDiv">
+            <img src="/images/dizajni 3.png">
+        </div>
+    </div>
 </div>
-    <div class="prices-div">
 
-  
+        <section id="contact-section" class="contact-div">
+    <div class="right-contact-div">
+        <h3>Contact Us</h3>
+        <div class="form-div">
+            <p id="error-message" style="color: #ff4d4d; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; margin: 0; min-height: 1.2rem; text-align: center;"></p>
 
-        <div class="starter-plan">
-            <p>Starter</p><br>
-           <h4>Free</h4>
-            <p class="p-2">Share and explore content about the sea with Into the Sea</p>
-
-            <button>Sign up</button>
-  <ul class="prices-ul-el">
-             <li>Post up to 10 sea stories or images</li>
-            <li>View public posts from other users</li>
-            <li>Basic commenting on posts</li>
-            <li>Limited customization for your profile</li>
-
-    
-     <ul>
-
-        </div>
-
-        <div class="starter-plan pro-plan">
-            <p>Pro</p><br>
-           <h4>20$ per month</h4>
-            <p class="p-2">Get more features to share and explore sea content with Into the Sea.</p>
-
-            <button>Sign up</button>
-  <ul class="prices-ul-el">
-            <li>Post up to 50 sea stories or images</li>
-            <li>Access private posts from other users</li>
-            <li>Comment and interact with all posts</li>
-            <li>Profile customization options</li>
-            <li>Priority support</li>
-
-    
-     <ul>
-
-        </div>
-
-
-        <div class="starter-plan">
-            <p>Teams</p><br>
-           <h4>35$ per user<br> per month</h4>
-            <p class="p-2">Collaborate and manage multiple sea content creators with Into the Sea.</p>
-
-            <button>Sign up</button>
-  <ul class="prices-ul-el">
-             <li>Unlimited posts for your team</li>
-            <li>Private team spaces and shared content</li>
-            <li>Advanced commenting and moderation</li>
-            <li>Full profile customization for each member</li>
-            <li>Priority support and analytics dashboard</li>
-
-    
-     <ul>
-
-        </div>
-
-    </div>
-
-
-
-
-
-    <div class="GridContainer">
-
-
-        <div class="pink1">
-            <h3>First Round of<br> funding</h3>
-            <img src="images/Naruto.jpg" alt="naruto character image">
-            <h2>2.5K</h2>
-            <p>263 Contributions in the last year</p>
-        </div>
-         <div class="white1">
-            <p>4.875 🖤</p>
-            <p>Project Views <br>
-                last year
-            </p>
-         </div>
-          <div class="white2">
-            <p>New Users</p>
-            <p class="numberUsers">57K</p>
-            <p class="percentageP">+10%</p>
-          </div>
-
-        <div class="white3">
-            <div class="white3InnerDiv">
-                <div class="white3Title">
-                    <p>Team of passionate<br> designers and<br> developers</p>
-
-               </div>
-
-                <div class="white3ImagesDiv">
-                    <img src="images/Naruto.jpg">
-                      <img src="images/eren.jpg">
-                        <img src="images/luffy.jpg">
-                          <img src="images/levi.jpg">
-
-                </div>
-
-                <div class="white3P">
-                         <p>Daily <br> New clients</p>
-                         <p class="nr">54</p>
-                         <P class="perc">+40%</P>
-                </div>
-
-                
-
-            </div>
-
-        </div>
-            <div class="white4">
-
-
-                <p>Smart Digital <br> Agency For Your<br> Bussiness</p>
-
-                <div class="white4InnerDiv">
-                <img src="images/diver2.png">
-              </div>
-
-            </div>
-             <div class="pink2 centerDiv"></div>
-
-
-              <div class="white5">
-                
-                      <p>Font</p>
-
-                      <p class="secondP">Sk-Modernist</p>
-
-                      <div class="white5InnerDiv">
-                      <img src="images/design.png"></img>
-                      <img src="images/design.png"></img>
-                      <img src="images/design.png"></img>
-                      <img src="images/design.png"></img>
-                     </div>
-
-              </div>
-               <div class="white6">
-                <img src="images/design.png">
-                <p>CUBO</p>
-               </div>
-
-
-                <div class="pink3">
-
-                    <div>
-                    <p class="pink3P">We Build Future of <br> Design Industry</p>
-
-                    <p>Crafting Meaningful UX/UI Design</p>
-                    </div>
-
-                    <div class="pink3InnerDiv">
-                        <img src="images/dizajni 3.png">
-
-                    </div>
-
-
-
-
-
-                </div>
-
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div  class="contact-div">
-
-      
-
-
-        <div class="right-contact-div">
-
-            <h3>Contact Us</h3>
-
-
-            <div class="form-div">
-
-                <div class="name-lastname-div">
-
+            <div class="name-lastname-div">
                 <input type="text" class="name" placeholder="Name">  
                 <input type="text" class="lastname" placeholder="Lastname">  
-
-                </div>
-
-                <div class="email-div">
-                    <input type="email" class="email" placeholder="Email">
-
-                </div>
-
-                <div  class="message-div">
-
-                    <input type="text" class="message" placeholder="Your Message">
-
-                </div>
-
-
+            </div>
+            <div class="email-div">
+                <input type="email" class="email" placeholder="Email">
+            </div>
+            <div class="message-div">
+                <input type="text" class="message" placeholder="Your Message">
             </div>
 
-
+            <button type="submit" class="submit-btn">Send Message</button>
         </div>
-
-
+    </div>
+</section>
     </div>
 
-
-    </div>
-    <script src="index.js"> </script>
+    <script src="index.js"></script>
+    <script src="contact.js"></script>
 </body>
 </html>
